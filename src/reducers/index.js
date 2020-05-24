@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import auth from './auth.reducer'
 
 const INITIAL_STATE = {
   current: [],
@@ -19,4 +20,5 @@ const friendReducer = (state = INITIAL_STATE, action) => {
 
 export default combineReducers({
   friends: friendReducer,
+  authReducer: auth,
 });

@@ -18,8 +18,11 @@ const Colors = {
     black: '#000',
 };
 
+const regx = {
+    email: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+}
+
 const Theme = {
-    // color: '#e04f5f',
     color: '#ffb012',
     backgroundColor: '',
     fontFamily: '',
@@ -54,6 +57,7 @@ export {
     customAlert,
     appInfo,
     platformOS,
-    isLargeriPhone
+    isLargeriPhone,
+    regx
 }
 
