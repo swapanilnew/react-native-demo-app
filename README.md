@@ -1,5 +1,4 @@
 # React-Demo
----
 
 ### Practice app for react-native.
 
