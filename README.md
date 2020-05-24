@@ -10,8 +10,8 @@ React-Demo app
 
 ```json
 {
-    email: "swapaniljain525@gmail.com",
-    password: "123456"
+    "email": "swapaniljain525@gmail.com",
+    "password": "123456"
 }
 ```
 
