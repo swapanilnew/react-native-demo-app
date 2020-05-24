@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { connect } from 'react-redux';
 import { View, Text, SafeAreaView, StyleSheet } from "react-native";
-import { height, width, regx } from "../../config";
+import { height, width, regx, isLargeriPhone } from "../../config";
 import { TextInput, TouchableOpacity } from "react-native-gesture-handler";
 import { loginUser } from '../../actions/auth.action'
 
@@ -93,7 +93,7 @@ const commonStyles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         width: width * 0.6,
-        height: height * 0.05,
+        height: isLargeriPhone? height * 0.05: height * 0.06,
         borderRadius: width * 0.05,
         paddingLeft: width * 0.05,
         borderWidth: 1,

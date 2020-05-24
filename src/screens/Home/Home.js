@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
         fontSize: 25,
     },
     backIconContainer: {
-        marginHorizontal: width * 0.05
+        marginHorizontal: width * 0.05,
+        marginVertical: height*0.015
     }
 })
 

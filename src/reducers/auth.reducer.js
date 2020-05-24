@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 
 const initialState = {
     isLoading: false,
-    isLoggedIn: true,
+    isLoggedIn: false,
     isError: false,
     userId: '',
     adminId: '',
